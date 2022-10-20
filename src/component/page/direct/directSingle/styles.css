@@ -1,0 +1,22 @@
+.fix-size{
+    width: inherit;
+    max-width: inherit;
+}
+.chat{
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid #f2f2f2;
+    background-color: #f2f2f2;
+}
+.chat.other-user{
+    background-color: none;
+}
+.chat .time{
+    font-size: 10px;
+    color: gray;
+}
+.input-row{
+    background-color: #fff;
+    margin-bottom: 0 !important;
+    padding-bottom: 8px;
+}

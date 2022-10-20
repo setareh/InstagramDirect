@@ -1,0 +1,3 @@
+.content-width{
+    width: calc(100% - 60px);
+}

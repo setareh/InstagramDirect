@@ -1,0 +1,49 @@
+.search-icon{
+    background: url(../../../../assets/images/icons/searchG.svg) no-repeat scroll 2px 0px;
+    background-color: #efefef;
+    background-size: 30px;
+    padding-left:30px;
+}
+/* bootstrap override */
+.form-control:focus{
+    background-color: #efefef;
+    box-shadow: none;
+}
+.msg-counter{
+    min-width: 20px;
+    height: 20px;
+    text-align: center;
+}
+.gray-text{
+    color:#7d7d7d !important;
+}
+.light-gray{
+    color: #a3a3a3 !important;
+}
+.direct-list .profile-img{
+    width: 50px;
+    height: 50px;
+}
+.status{
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+}
+.status.new-msg{
+    background-color:#0099fe ;
+}
+#Search::-webkit-search-cancel-button{
+    position:relative;
+    -webkit-appearance: none;
+    height: 15px;
+    width: 15px;
+    border-radius:10px;
+    background: red;
+    background-image: url(../../../../assets/images/icons/close.svg);
+}
+.last-chat{
+    max-width: 80%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
