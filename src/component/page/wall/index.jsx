@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 
 import '../wall/styles.css';
 import {Container, Row, Col} from 'reactstrap';
+import Navigation from '../../base/navbar/index'
 
 //Image
 import ProfilePic from '../../../assets/images/profile/user-2.png';
@@ -308,6 +309,8 @@ const Wall = () => {
                     It has survived not only five centuries</p>
                 </Col>
             </Row>
+            <Navigation />
+
         </Container>
     )
 }
