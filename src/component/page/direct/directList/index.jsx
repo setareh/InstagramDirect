@@ -18,7 +18,6 @@ export default function DirectList() {
   return (
     <Container className={'container-sm'}>
       
-      {/* <DirectHeader /> */}
       <DirectHeader userProfileId = {1} />
 
       <Search/>

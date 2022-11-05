@@ -1,6 +1,5 @@
 import { useState, useEffect,useRef } from 'react'
 import DirectHeader from '../../../base/direct-header';
-// import { useOnChangeHandler } from '../../../../hooks/useOnChangeHandler';
 import axios from 'axios';
 import { useParams } from 'react-router-dom';
 import { useSelector,useDispatch } from 'react-redux';
@@ -15,14 +14,12 @@ export default function SingleDirectPage() {
 
   
 
-  // const [inputValue , onChangeInputValue] = useOnChangeHandler('');
   const [data, setData] =useState([]);
   const [text, setText] =useState('');
 
   const {id, slug} = useParams();
 
   const messageList = useSelector((state) => state.message.value)
-  // const personalChat = messageList.valueOf().id;
 
   
 
@@ -58,7 +55,6 @@ export default function SingleDirectPage() {
 
   const SendNewMessage = () => {
     if(!text.trim()){
-      // alert('please fill the inpute')
       return
     }
     else{
@@ -121,9 +117,7 @@ export default function SingleDirectPage() {
           <Input value={text} onChange={sendText} type='text' placeholder='Message...' className={'rounded-5'}/>
         </Col>
         <Col xs={2}>
-          {/* <Button onClick={() => {dispatch(ADD_MESSAGE({id, text}))}}  className='rounded-5' color='info'>Send</Button> */}
           <Button onClick={SendNewMessage}  type="submit">send</Button>
-          {/* <Button onClick={SinglePostPage({id:id})}>test</Button> */}
         </Col>
       </Row>
     </Container>
