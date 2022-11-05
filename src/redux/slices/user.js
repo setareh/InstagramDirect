@@ -8,7 +8,7 @@ const initialState = {
 }
 
 export const getFriends = createAsyncThunk("friends/getFriends", async() => {
-    // return await fetch("http://localhost:9000/profile").then((res) => res.json())
+     //return await fetch("http://localhost:9000/profile").then((res) => res.friends)
    try{
     const response = await axios({
         url: "http://localhost:9000/profile",

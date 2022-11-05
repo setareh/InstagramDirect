@@ -20,12 +20,13 @@ export default function DirectListInfo() {
   // const [profileFriends, setProfileFriends]  =useState([]);
   const {friends} = useSelector((state) => state.friend);
 
+  
   const dispatch = useDispatch();
-
+  
   useEffect(()=> {
     dispatch(getFriends());
   },[])
-
+  
   // console.log("frieeeends",friends);
 
 

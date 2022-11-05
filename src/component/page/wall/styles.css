@@ -5,21 +5,34 @@ body{
 .post .username {
     font-weight: bold;
 }
-.profile-img{
+
+.gradient-border{
+    position: relative;
     width: 70px;
     height: 70px;
+    background-color: #fff;
+    margin: 5px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+
+
+}
+.gradient-border::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    margin: -5px;
+    border-radius: inherit;
+    background-image: linear-gradient(45deg,#fccc63, #fbad50,#bc2a8d, #8a3ab9 );}
+.profile-img{
+    width: 65px;
+    height: 65px;
     border-radius: 50%;
 }
-/* .profile-img::after{
-    content: '';
-    position: absolute;
-    width: 10px;
-    font-size: 10px;
-    background-color: aqua;
-    color: #fff;
-    right: 3px;
-    bottom: 5px;
-} */
 .post .profile-img{
     width: 30px;
     height:30px;
@@ -27,4 +40,9 @@ body{
 }
 .ig-icon{
     width: 35px;
+}
+.story{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
 }

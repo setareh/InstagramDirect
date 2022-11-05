@@ -31,44 +31,104 @@ const Wall = () => {
                 </Col>
             </Row>
 
-            <Row className={'my-2 py-2 border-bottom border-light'}>
-                <Col xs={'2'}>
-                    <a href="#" className={"text-reset text-decoration-none text-center"}>
-                        <img className={'profile-img d-block text-center'}  src={ProfilePic} alt={'profile image'}></img>
+            <div className={'my-2 py-2 border-bottom border-light story'}>
+                <div className="d-inline-block">
+                    <a href="#" className={"text-reset text-decoration-none text-center d-inline-block"}>
+                        <div className={'gradient-border'}>
+                            <img className={'profile-img d-block text-center'}  src={ProfilePic} alt={'profile image'}></img>
+                        </div>
                         <div className="text-center">my story</div>
                     </a>
-                </Col>
-                <Col xs={'2'}>
-                    <a href="#" className={"text-reset text-decoration-none  text-center"}>
-                        <img className={'profile-img d-block'}  src={ProfilePicUser3} alt={'profile image'}></img>
+                </div>
+                <div className="d-inline-block">
+                    <a href="#" className={"text-reset text-decoration-none  text-center d-inline-block"}>
+                        <div className={'gradient-border'}>
+                            <img className={'profile-img d-block'}  src={ProfilePicUser3} alt={'profile image'}></img>
+                        </div>
                         <div>user name</div>
                     </a>
-                </Col>
-                <Col xs={'2'}>
-                    <a href="#" className={"text-reset text-decoration-none text-center"}>
-                        <img className={'profile-img d-block'}  src={ProfilePicUser5} alt={'profile image'}></img>
+                </div>
+                <div className="d-inline-block">
+                    <a href="#" className={"text-reset text-decoration-none text-center d-inline-block"}>
+                        <div className={'gradient-border'}>
+                            <img className={'profile-img d-block'}  src={ProfilePicUser5} alt={'profile image'}></img>
+                        </div>
                         <div>user name</div>
                     </a>
-                </Col>
-                <Col xs={'2'}>
-                    <a href="#" className={"text-reset text-decoration-none text-center"}>
-                        <img className={'profile-img d-block'}  src={ProfilePicUser1} alt={'profile image'}></img>
+                </div>
+                <div className="d-inline-block">
+                    <a href="#" className={"text-reset text-decoration-none text-center d-inline-block"}>
+                        <div className={'gradient-border'}>
+                            <img className={'profile-img d-block'}  src={ProfilePicUser1} alt={'profile image'}></img>
+                        </div>
                         <div>user name</div>
                     </a>
-                </Col>
-                <Col xs={'2'}>
-                    <a href="#" className={"text-reset text-decoration-none text-center"}>
-                        <img className={'profile-img d-block'}  src={ProfilePicUser4} alt={'profile image'}></img>
+                </div>
+                <div className="d-inline-block">
+                    <a href="#" className={"text-reset text-decoration-none text-center d-inline-block"}>
+                        <div className={'gradient-border'}>
+                            <img className={'profile-img d-block'}  src={ProfilePicUser4} alt={'profile image'}></img>
+                        </div>
                         <div>user name</div>
                     </a>
-                </Col>
-                <Col xs={'2'}>
-                    <a href="#" className={"text-reset text-decoration-none text-center"}>
-                        <img className={'profile-img d-block'}  src={ProfilePicUser5} alt={'profile image'}></img>
+                </div>
+                <div className="d-inline-block">
+                    <a href="#" className={"text-reset text-decoration-none text-center d-inline-block"}>
+                        <div className={'gradient-border'}>
+                            <img className={'profile-img d-block'}  src={ProfilePicUser5} alt={'profile image'}></img>
+                        </div>
                         <div>user name</div>
                     </a>
-                </Col>
-            </Row>
+                </div>
+                <div className="d-inline-block">
+                    <a href="#" className={"text-reset text-decoration-none  text-center d-inline-block"}>
+                        <div className={'gradient-border'}>
+                            <img className={'profile-img d-block'}  src={ProfilePicUser3} alt={'profile image'}></img>
+                        </div>
+                        <div>user name</div>
+                    </a>
+                </div>
+                <div className="d-inline-block">
+                    <a href="#" className={"text-reset text-decoration-none text-center d-inline-block"}>
+                        <div className={'gradient-border'}>
+                            <img className={'profile-img d-block'}  src={ProfilePicUser5} alt={'profile image'}></img>
+                        </div>
+                        <div>user name</div>
+                    </a>
+                </div>
+                <div className="d-inline-block">
+                    <a href="#" className={"text-reset text-decoration-none text-center d-inline-block"}>
+                        <div className={'gradient-border'}>
+                            <img className={'profile-img d-block'}  src={ProfilePicUser1} alt={'profile image'}></img>
+                        </div>
+                        <div>user name</div>
+                    </a>
+                </div>
+                <div className="d-inline-block">
+                    <a href="#" className={"text-reset text-decoration-none text-center d-inline-block"}>
+                        <div className={'gradient-border'}>
+                            <img className={'profile-img d-block'}  src={ProfilePicUser4} alt={'profile image'}></img>
+                        </div>
+                        <div>user name</div>
+                    </a>
+                </div>
+                <div className="d-inline-block">
+                    <a href="#" className={"text-reset text-decoration-none text-center d-inline-block"}>
+                        <div className={'gradient-border'}>
+                            <img className={'profile-img d-block'}  src={ProfilePicUser5} alt={'profile image'}></img>
+                        </div>
+                        <div>user name</div>
+                    </a>
+                </div>
+                <div className="d-inline-block">
+                    <a href="#" className={"text-reset text-decoration-none  text-center d-inline-block"}>
+                        <div className={'gradient-border'}>
+                            <img className={'profile-img d-block'}  src={ProfilePicUser3} alt={'profile image'}></img>
+                        </div>
+                        <div>user name</div>
+                    </a>
+                </div>
+            </div>
             <Row className={'my-2 post'}>
                 <Col xs={'10'}>
                     <a href="#" className={'text-reset text-decoration-none'}>
