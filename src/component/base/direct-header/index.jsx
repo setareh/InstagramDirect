@@ -46,7 +46,7 @@ export default function DirectHeader(props) {
                 src={userProfile ? userProfile[0].picture : ProfilePicUser2 }                    
                 alt={'profile image'}></img>
                 <a href='#' className={'text-reset text-decoration-none text-start fs-4 fw-bold'}>
-                    {userProfile ? userProfile[0].name : 'SETARE' }                    
+                    {userProfile ? userProfile[0].name : 'Setare' }                    
                 </a>
                 <div className={'position-absolute rounded-circle bg-danger text-white msg-counter d-inline'}>
                     <span className={'position-relative'}>2</span>

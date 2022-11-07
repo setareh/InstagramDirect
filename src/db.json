@@ -114,7 +114,7 @@
         "chatlog": [
           {
             "text":
-              "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour",
+              "Or maybe not, let me check logistics and call you. Give me sometime",
             "timestamp": "10:06 AM",
             "side": "left",
             "message_id": 7
@@ -168,7 +168,7 @@
         "chatlog": [
           {
             "text":
-              "It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable",
+              "Alright",
             "timestamp": "07:05 AM",
             "side": "left",
             "message_id": 4
@@ -200,61 +200,541 @@
         "id": 4,
         "name": "Luke",
         "picture": "https://image.ibb.co/jOzeUG/luke_1.jpg",
-        "chatlog": []
+        "chatlog": [
+          {
+            "text":
+              "I will look into it",
+            "timestamp": "10:06 AM",
+            "side": "left",
+            "message_id": 7
+          },
+          {
+            "text":
+              "Lorem Ipsum",
+            "timestamp": "10:05 AM",
+            "side": "right",
+            "message_id": 6
+          },
+          {
+            "text":
+              "All the Lorem Ipsum generators on the Internet tend to",
+            "timestamp": "10:03 AM",
+            "side": "left",
+            "message_id": 5
+          },
+          {
+            "text":
+              "Or maybe not, let me check logistics and call you. Give me sometime",
+            "timestamp": "10:03 AM",
+            "side": "left",
+            "message_id": 4
+          },
+          {
+            "text": "I believe they must have misplaced it elsewhere?!",
+            "timestamp": "10:02 AM",
+            "side": "left",
+            "message_id": 3
+          },
+          {
+            "text":
+              "Lorem Ipsum text text",
+            "timestamp": "10:01 AM",
+            "side": "right",
+            "message_id": 2
+          },
+          {
+            "text": "Did you recieve the package I sent you the other day?",
+            "timestamp": "10:00 AM",
+            "side": "left",
+            "message_id": 1
+          }
+]
       },
       {
         "id": 5,
         "name": "Bane",
         "picture": "https://image.ibb.co/cBZPww/bane_1.jpg",
-        "chatlog": []
+        "chatlog": [
+          {
+            "text":
+              "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour",
+            "timestamp": "10:06 AM",
+            "side": "left",
+            "message_id": 7
+          },
+          {
+            "text":
+              "Lorem Ipsum",
+            "timestamp": "10:05 AM",
+            "side": "right",
+            "message_id": 6
+          },
+          {
+            "text":
+              "All the Lorem Ipsum generators on the Internet tend to",
+            "timestamp": "10:03 AM",
+            "side": "left",
+            "message_id": 5
+          },
+          {
+            "text":
+              "Or maybe not, let me check logistics and call you. Give me sometime",
+            "timestamp": "10:03 AM",
+            "side": "left",
+            "message_id": 4
+          },
+          {
+            "text": "I believe they must have misplaced it elsewhere?!",
+            "timestamp": "10:02 AM",
+            "side": "left",
+            "message_id": 3
+          },
+          {
+            "text":
+              "Lorem Ipsum text text",
+            "timestamp": "10:01 AM",
+            "side": "right",
+            "message_id": 2
+          },
+          {
+            "text": "Did you recieve the package I sent you the other day?",
+            "timestamp": "10:00 AM",
+            "side": "left",
+            "message_id": 1
+          }
+]
       },
       {
         "id": 6,
         "name": "Darth Vader",
         "picture": "https://image.ibb.co/j4Ov3b/darth_vader_1.png",
-        "chatlog": []
+        "chatlog": [
+          {
+            "text":
+              "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour",
+            "timestamp": "10:06 AM",
+            "side": "left",
+            "message_id": 7
+          },
+          {
+            "text":
+              "Lorem Ipsum",
+            "timestamp": "10:05 AM",
+            "side": "right",
+            "message_id": 6
+          },
+          {
+            "text":
+              "All the Lorem Ipsum generators on the Internet tend to",
+            "timestamp": "10:03 AM",
+            "side": "left",
+            "message_id": 5
+          },
+          {
+            "text":
+              "Or maybe not, let me check logistics and call you. Give me sometime",
+            "timestamp": "10:03 AM",
+            "side": "left",
+            "message_id": 4
+          },
+          {
+            "text": "I believe they must have misplaced it elsewhere?!",
+            "timestamp": "10:02 AM",
+            "side": "left",
+            "message_id": 3
+          },
+          {
+            "text":
+              "Lorem Ipsum text text",
+            "timestamp": "10:01 AM",
+            "side": "right",
+            "message_id": 2
+          },
+          {
+            "text": "Did you recieve the package I sent you the other day?",
+            "timestamp": "10:00 AM",
+            "side": "left",
+            "message_id": 1
+          }
+]
       },
       {
         "id": 7,
         "name": "Zach",
         "picture": "https://image.ibb.co/b4kxGw/zach_1.jpg",
-        "chatlog": []
+        "chatlog": [
+          {
+            "text":
+              "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour",
+            "timestamp": "10:06 AM",
+            "side": "left",
+            "message_id": 7
+          },
+          {
+            "text":
+              "Lorem Ipsum",
+            "timestamp": "10:05 AM",
+            "side": "right",
+            "message_id": 6
+          },
+          {
+            "text":
+              "All the Lorem Ipsum generators on the Internet tend to",
+            "timestamp": "10:03 AM",
+            "side": "left",
+            "message_id": 5
+          },
+          {
+            "text":
+              "Or maybe not, let me check logistics and call you. Give me sometime",
+            "timestamp": "10:03 AM",
+            "side": "left",
+            "message_id": 4
+          },
+          {
+            "text": "I believe they must have misplaced it elsewhere?!",
+            "timestamp": "10:02 AM",
+            "side": "left",
+            "message_id": 3
+          },
+          {
+            "text":
+              "Lorem Ipsum text text",
+            "timestamp": "10:01 AM",
+            "side": "right",
+            "message_id": 2
+          },
+          {
+            "text": "Did you recieve the package I sent you the other day?",
+            "timestamp": "10:00 AM",
+            "side": "left",
+            "message_id": 1
+          }
+]
       },
       {
         "id": 8,
         "name": "Katie",
         "picture": "https://image.ibb.co/eLVWbw/katie_1.jpg",
-        "chatlog": []
+        "chatlog": [
+          {
+            "text":
+              "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour",
+            "timestamp": "10:06 AM",
+            "side": "left",
+            "message_id": 7
+          },
+          {
+            "text":
+              "Lorem Ipsum",
+            "timestamp": "10:05 AM",
+            "side": "right",
+            "message_id": 6
+          },
+          {
+            "text":
+              "All the Lorem Ipsum generators on the Internet tend to",
+            "timestamp": "10:03 AM",
+            "side": "left",
+            "message_id": 5
+          },
+          {
+            "text":
+              "Or maybe not, let me check logistics and call you. Give me sometime",
+            "timestamp": "10:03 AM",
+            "side": "left",
+            "message_id": 4
+          },
+          {
+            "text": "I believe they must have misplaced it elsewhere?!",
+            "timestamp": "10:02 AM",
+            "side": "left",
+            "message_id": 3
+          },
+          {
+            "text":
+              "Lorem Ipsum text text",
+            "timestamp": "10:01 AM",
+            "side": "right",
+            "message_id": 2
+          },
+          {
+            "text": "Did you recieve the package I sent you the other day?",
+            "timestamp": "10:00 AM",
+            "side": "left",
+            "message_id": 1
+          }
+]
       },
       {
         "id": 9,
         "name": "Chloe",
         "picture": "https://image.ibb.co/ncAa3b/chloe_1.jpg",
-        "chatlog": []
+        "chatlog": [
+          {
+            "text":
+              "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour",
+            "timestamp": "10:06 AM",
+            "side": "left",
+            "message_id": 7
+          },
+          {
+            "text":
+              "Lorem Ipsum",
+            "timestamp": "10:05 AM",
+            "side": "right",
+            "message_id": 6
+          },
+          {
+            "text":
+              "All the Lorem Ipsum generators on the Internet tend to",
+            "timestamp": "10:03 AM",
+            "side": "left",
+            "message_id": 5
+          },
+          {
+            "text":
+              "Or maybe not, let me check logistics and call you. Give me sometime",
+            "timestamp": "10:03 AM",
+            "side": "left",
+            "message_id": 4
+          },
+          {
+            "text": "I believe they must have misplaced it elsewhere?!",
+            "timestamp": "10:02 AM",
+            "side": "left",
+            "message_id": 3
+          },
+          {
+            "text":
+              "Lorem Ipsum text text",
+            "timestamp": "10:01 AM",
+            "side": "right",
+            "message_id": 2
+          },
+          {
+            "text": "Did you recieve the package I sent you the other day?",
+            "timestamp": "10:00 AM",
+            "side": "left",
+            "message_id": 1
+          }
+]
       },
       {
         "id": 10,
         "name": "Kennith",
         "picture": "https://image.ibb.co/fQKPww/kennith_1.jpg",
-        "chatlog": []
+        "chatlog": [
+          {
+            "text":
+              "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour",
+            "timestamp": "10:06 AM",
+            "side": "left",
+            "message_id": 7
+          },
+          {
+            "text":
+              "Lorem Ipsum",
+            "timestamp": "10:05 AM",
+            "side": "right",
+            "message_id": 6
+          },
+          {
+            "text":
+              "All the Lorem Ipsum generators on the Internet tend to",
+            "timestamp": "10:03 AM",
+            "side": "left",
+            "message_id": 5
+          },
+          {
+            "text":
+              "Or maybe not, let me check logistics and call you. Give me sometime",
+            "timestamp": "10:03 AM",
+            "side": "left",
+            "message_id": 4
+          },
+          {
+            "text": "I believe they must have misplaced it elsewhere?!",
+            "timestamp": "10:02 AM",
+            "side": "left",
+            "message_id": 3
+          },
+          {
+            "text":
+              "Lorem Ipsum text text",
+            "timestamp": "10:01 AM",
+            "side": "right",
+            "message_id": 2
+          },
+          {
+            "text": "Did you recieve the package I sent you the other day?",
+            "timestamp": "10:00 AM",
+            "side": "left",
+            "message_id": 1
+          }
+]
       },
       {
         "id": 11,
         "name": "Tara",
         "picture": "https://image.ibb.co/dM6hib/tara_1.jpg",
-        "chatlog": []
+        "chatlog": [
+          {
+            "text":
+              "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour",
+            "timestamp": "10:06 AM",
+            "side": "left",
+            "message_id": 7
+          },
+          {
+            "text":
+              "Lorem Ipsum",
+            "timestamp": "10:05 AM",
+            "side": "right",
+            "message_id": 6
+          },
+          {
+            "text":
+              "All the Lorem Ipsum generators on the Internet tend to",
+            "timestamp": "10:03 AM",
+            "side": "left",
+            "message_id": 5
+          },
+          {
+            "text":
+              "Or maybe not, let me check logistics and call you. Give me sometime",
+            "timestamp": "10:03 AM",
+            "side": "left",
+            "message_id": 4
+          },
+          {
+            "text": "I believe they must have misplaced it elsewhere?!",
+            "timestamp": "10:02 AM",
+            "side": "left",
+            "message_id": 3
+          },
+          {
+            "text":
+              "Lorem Ipsum text text",
+            "timestamp": "10:01 AM",
+            "side": "right",
+            "message_id": 2
+          },
+          {
+            "text": "Did you recieve the package I sent you the other day?",
+            "timestamp": "10:00 AM",
+            "side": "left",
+            "message_id": 1
+          }
+]
       },
       {
         "id": 12,
         "name": "Gary",
         "picture": "https://image.ibb.co/gsF8Ob/gary_1.jpg",
-        "chatlog": []
+        "chatlog": [
+          {
+            "text":
+              "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour",
+            "timestamp": "10:06 AM",
+            "side": "left",
+            "message_id": 7
+          },
+          {
+            "text":
+              "Lorem Ipsum",
+            "timestamp": "10:05 AM",
+            "side": "right",
+            "message_id": 6
+          },
+          {
+            "text":
+              "All the Lorem Ipsum generators on the Internet tend to",
+            "timestamp": "10:03 AM",
+            "side": "left",
+            "message_id": 5
+          },
+          {
+            "text":
+              "Or maybe not, let me check logistics and call you. Give me sometime",
+            "timestamp": "10:03 AM",
+            "side": "left",
+            "message_id": 4
+          },
+          {
+            "text": "I believe they must have misplaced it elsewhere?!",
+            "timestamp": "10:02 AM",
+            "side": "left",
+            "message_id": 3
+          },
+          {
+            "text":
+              "Lorem Ipsum text text",
+            "timestamp": "10:01 AM",
+            "side": "right",
+            "message_id": 2
+          },
+          {
+            "text": "Did you recieve the package I sent you the other day?",
+            "timestamp": "10:00 AM",
+            "side": "left",
+            "message_id": 1
+          }
+]
       },
       {
         "id": 13,
         "name": "Zoey",
         "picture": "https://image.ibb.co/nd0Wbw/zoey_1.jpg",
-        "chatlog": []
+        "chatlog": [
+          {
+            "text":
+              "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour",
+            "timestamp": "10:06 AM",
+            "side": "left",
+            "message_id": 7
+          },
+          {
+            "text":
+              "Lorem Ipsum",
+            "timestamp": "10:05 AM",
+            "side": "right",
+            "message_id": 6
+          },
+          {
+            "text":
+              "All the Lorem Ipsum generators on the Internet tend to",
+            "timestamp": "10:03 AM",
+            "side": "left",
+            "message_id": 5
+          },
+          {
+            "text":
+              "Or maybe not, let me check logistics and call you. Give me sometime",
+            "timestamp": "10:03 AM",
+            "side": "left",
+            "message_id": 4
+          },
+          {
+            "text": "I believe they must have misplaced it elsewhere?!",
+            "timestamp": "10:02 AM",
+            "side": "left",
+            "message_id": 3
+          },
+          {
+            "text":
+              "Lorem Ipsum text text",
+            "timestamp": "10:01 AM",
+            "side": "right",
+            "message_id": 2
+          },
+          {
+            "text": "Did you recieve the package I sent you the other day?",
+            "timestamp": "10:00 AM",
+            "side": "left",
+            "message_id": 1
+          }
+]
       },
       {
         "id": 14,
@@ -266,7 +746,55 @@
         "id": 15,
         "name": "Zen",
         "picture": "https://image.ibb.co/eeqWbw/zen_1.jpg",
-        "chatlog": []
+        "chatlog": [
+          {
+            "text":
+              "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour",
+            "timestamp": "10:06 AM",
+            "side": "left",
+            "message_id": 7
+          },
+          {
+            "text":
+              "Lorem Ipsum",
+            "timestamp": "10:05 AM",
+            "side": "right",
+            "message_id": 6
+          },
+          {
+            "text":
+              "All the Lorem Ipsum generators on the Internet tend to",
+            "timestamp": "10:03 AM",
+            "side": "left",
+            "message_id": 5
+          },
+          {
+            "text":
+              "Or maybe not, let me check logistics and call you. Give me sometime",
+            "timestamp": "10:03 AM",
+            "side": "left",
+            "message_id": 4
+          },
+          {
+            "text": "I believe they must have misplaced it elsewhere?!",
+            "timestamp": "10:02 AM",
+            "side": "left",
+            "message_id": 3
+          },
+          {
+            "text":
+              "Lorem Ipsum text text",
+            "timestamp": "10:01 AM",
+            "side": "right",
+            "message_id": 2
+          },
+          {
+            "text": "Did you recieve the package I sent you the other day?",
+            "timestamp": "10:00 AM",
+            "side": "left",
+            "message_id": 1
+          }
+]
       }
     ],
     "allFriends": [

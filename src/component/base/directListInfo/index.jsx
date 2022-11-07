@@ -41,7 +41,7 @@ export default function DirectListInfo() {
               </Link>
             </Col>
             <Col xs={1} className={'align-self-center'}>
-              <div className={'rounded-circle status new-msg'}></div>
+              <div className={'rounded-circle status '}></div>
             </Col>
             <Col xs={1} className={'align-self-center'}>
               <a href='#'>
