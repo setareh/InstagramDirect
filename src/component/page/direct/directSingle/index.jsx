@@ -9,6 +9,7 @@ import { useSelector,useDispatch } from 'react-redux';
 import { Container,Row, Input, Col, Button } from 'reactstrap';
 import './styles.css'
 import { ADD_MESSAGE } from '../../../../redux/slices/messages';
+import ICONS from '../../../../assets/images/icons';
 
 export default function SingleDirectPage() {
 
@@ -16,6 +17,7 @@ export default function SingleDirectPage() {
 
   const [data, setData] =useState([]);
   const [text, setText] =useState('');
+  const [isTyping, setIsTyping] =useState(false);
 
   const {id, slug} = useParams();
 
@@ -51,7 +53,10 @@ export default function SingleDirectPage() {
     }
   }
   
-  const sendText = (e) => setText(e.target.value)
+  const sendText = (e) => {
+    setIsTyping(true);
+    setText(e.target.value)
+  }
 
   const SendNewMessage = () => {
     if(!text.trim()){
@@ -62,6 +67,7 @@ export default function SingleDirectPage() {
       setTimeout(() => {
         dispatch(ADD_MESSAGE({id: id, text: "Your message will be answered soon", timestamp: new Date().toLocaleString(), side: "left"}));
       }, 2000);
+      setIsTyping(false)
       setText(' ');  
     }
   }
@@ -113,11 +119,20 @@ export default function SingleDirectPage() {
       </Row>
      
       <Row className='position-fixed input-row bottom-0 mb-2 fix-size'>
-        <Col xs={10}>
+        <Col xs={12}>
           <Input value={text} onChange={sendText} type='text' placeholder='Message...' className={'rounded-5'}/>
-        </Col>
-        <Col xs={2}>
-          <Button onClick={SendNewMessage}  type="submit">send</Button>
+          <Button className={'input-action fw-bold bg-transparent border-0 btn btn-secondary position-absolute top-0' + (!isTyping ? ' d-none' : "" )} onClick={SendNewMessage}  type="submit">send</Button>
+          <div className={'input-action position-absolute' + (isTyping ? ' d-none' : "" )}>
+            <a href='#'>
+              <img src={ICONS.microphone} className={'ig-icon'}/>
+            </a>
+            <a href='#'>
+              <img src={ICONS.gallery} className={'ig-icon'}/>
+            </a>
+            <a href='#'>
+              <img src={ICONS.sticker} className={'ig-icon'}/>
+            </a>
+          </div>
         </Col>
       </Row>
     </Container>

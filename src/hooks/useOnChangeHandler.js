@@ -5,7 +5,6 @@ export const useOnChangeHandler = (initial) => {
 
     const onChangeHandler = (e) =>
         setValue(e.target.value);
-        console.log(value)
-
+        
     return [value, onChangeHandler, setValue]
 }

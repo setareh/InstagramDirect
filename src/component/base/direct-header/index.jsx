@@ -34,7 +34,7 @@ export default function DirectHeader(props) {
     }
 
   return (
-    <Row className={'pt-3 pb-2 bg-white fix-size position-fixed top-0'}>
+    <Row className={'pt-3 pb-2 bg-white fix-size position-fixed top-0 ' + (userId != 1 ? " border-bottom" : "")}>
         <Col xs={1}>
             <Link to={userId == 1 ? '/' : '/direct-list'} className={'float-start'}>
             <img src={ICONS.leftArrow} alt="back" className={'ig-icon'} />

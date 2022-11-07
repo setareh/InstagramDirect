@@ -20,3 +20,11 @@
     margin-bottom: 0 !important;
     padding-bottom: 8px;
 }
+.input-action{
+    right: 15px;
+    top: 3px;
+    color: #46a6f4;
+}
+.ig-icon{
+    width: 32px;
+}
